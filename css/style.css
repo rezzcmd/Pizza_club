@@ -1,0 +1,27 @@
+body {
+    font-family: 'Montserrat';
+}
+
+
+.navbar {
+    background-color: #fff;
+    width: 1440px height: 96px;
+    color: #000;
+}
+
+.nav-item {
+    font: 'inter';
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 24px;
+}
+
+.nav-item.active a {
+    color: #FF930D !important;
+    font-weight: 600;
+}
+
+.nav-link span {
+    color: #F9B234;
+    font-weight: 600;
+}
