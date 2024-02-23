@@ -5,13 +5,14 @@ body {
 
 .navbar {
     background-color: #fff;
-    width: 1440px height: 96px;
-    color: #000;
+    width: 1409px;
+    height: 96px;
+    color: #000000;
 }
 
 .nav-item {
-    font: 'inter';
-    font-weight: 400;
+    font-family: 'inter';
+    font-weight: 400, bold;
     font-size: 18px;
     margin-right: 24px;
 }
@@ -21,7 +22,142 @@ body {
     font-weight: 600;
 }
 
-.nav-link span {
-    color: #F9B234;
+/* Carousel */
+
+.carousel {
+    width: 1409px;
+    height: 460px;
+    top: 96px;
+    background-color: #FFFBC8;
+    color: #121212;
+}
+
+.carousel h1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.88px;
+}
+
+.carousel p {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+}
+
+.menu-terlaris {
+    margin-top: 110px;
+}
+
+.menu-terlaris h3,
+.features h3,
+.olshop h3 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39.01px;
+    color: #121212;
+}
+
+.menu-terlaris p,
+.features p {
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #6F6F6F;
+}
+
+.figure {
+    background-color: #FFF6EC;
+    width: 280px;
+    height: 280px;
+    top: 862px;
+    left: 130px;
+    border-radius: 20px;
+
+}
+
+.figure-img {
+    position: relative;
+}
+
+.figure-img img {
+    /* box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25) ; */
+    transform: translateY(-85px);
+}
+
+.figure figcaption {
+
+    transform: translateY(-50px);
+}
+
+.figure figcaption h5 {
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26.63px;
+    color: #121212;
+}
+
+.figure figcaption p {
+    font-family: 'inter';
+    font-weight: 400;
+    line-height: 16.94px;
+    color: #4F4F4F;
+}
+
+.figure figcaption span {
+    color: #FF930D;
+}
+
+.features h4 {
+    font-family: 'Inter';
+    font-size: 24px;
     font-weight: 600;
+    line-height: 29px;
+
+}
+
+.olshop {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.olshop p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    color: #6F6F6F;
+
+}
+
+.footer h4 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+
+
+}
+
+.footer p,
+a {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #6F6F6F;
+
+}
+
+.copyright p {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #6F6F6F;
+
 }
