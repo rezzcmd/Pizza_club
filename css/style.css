@@ -5,7 +5,7 @@ body {
 
 .navbar {
     background-color: #fff;
-    width: 1409px;
+    /* width: 1409px; */
     height: 96px;
     color: #000000;
 }
@@ -25,7 +25,7 @@ body {
 /* Carousel */
 
 .carousel {
-    width: 1409px;
+    /* width: 1409px; */
     height: 460px;
     top: 96px;
     background-color: #FFFBC8;
@@ -161,3 +161,33 @@ a {
     color: #6F6F6F;
 
 }
+
+.btn-warning {
+    color: #fff;
+    background-color: #FF930D;
+    border-color: #FF930D;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+      height: 100px;
+      width: 100px;
+      font-family: Inter;
+      font-weight: 200;
+      outline: black;
+      background-size: 100%, 100%;
+      border-radius: 50%;
+      background-image: none;
+  }
+  
+  .carousel-control-next-icon:after {
+      content: '>';
+      font-size: 55px;
+      color: #6F6F6F;
+  }
+  
+  .carousel-control-prev-icon:after {
+      content: '<';
+      font-size: 55px;
+      color: #6F6F6F;
+  }
