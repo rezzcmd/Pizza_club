@@ -32,11 +32,35 @@ body {
     color: #121212;
 }
 
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: #6F6F6F;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: #6F6F6F;
+}
+
 .carousel h1 {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 36px;
     line-height: 43.88px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    font-family: Inter;
+    font-weight: 200;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    background-image: none;
 }
 
 .carousel p {
@@ -84,7 +108,7 @@ body {
 }
 
 .figure-img img {
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25); */
     transform: translateY(-85px);
 }
 
@@ -134,7 +158,7 @@ body {
 
 }
 
-.footer h4 {
+.title-footer {
     font-family: 'Montserrat';
     font-size: 24px;
     font-weight: 700;
@@ -143,7 +167,7 @@ body {
 
 }
 
-.footer p,
+.title-sub-foot,
 a {
     font-family: 'Inter';
     font-size: 18px;
@@ -168,26 +192,33 @@ a {
     border-color: #FF930D;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
+/* Layanan */
+.card-layanan {
+    margin-left: 100px;
+    background: #FFBB67;
+    border-radius: 20px;
+    border: 0px;
     font-family: Inter;
-    font-weight: 200;
-    outline: black;
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    background-image: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #121212
 }
 
-.carousel-control-next-icon:after {
-    content: '>';
-    font-size: 55px;
-    color: #6F6F6F;
+.card-layanan p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: #121212;
 }
 
-.carousel-control-prev-icon:after {
-    content: '<';
-    font-size: 55px;
-    color: #6F6F6F;
+.card-layanan .left-sec {
+    margin-left: -85px;
+    margin-right: 10px;
+}
+
+.card-layanan .card-body {
+    padding-left: -100px;
 }
