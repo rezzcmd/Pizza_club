@@ -222,3 +222,55 @@ a {
 .card-layanan .card-body {
     padding-left: -100px;
 }
+
+.tab-content p {
+
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #6F6F6F;
+
+}
+
+/* 
+.nav-item {
+    background-color: #E6E6E6;
+} */
+
+
+.product-review h5 {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #6F6F6F;
+
+}
+
+.review p {
+
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 40px;
+    color: #6F6F6F;
+}
+
+.title-product {
+    font-family: 'Inter';
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 41px;
+    color: #121212;
+}
+
+.subtitle-product {
+    font-family: 'Inter';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #FF930D;
+    margin-top: 18px;
+
+}
