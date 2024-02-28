@@ -76,7 +76,9 @@ body {
 
 .menu-terlaris h3,
 .features h3,
-.olshop h3 {
+.olshop h3,
+.menu-lainnya h3,
+.cart-header h3 {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 32px;
@@ -85,7 +87,9 @@ body {
 }
 
 .menu-terlaris p,
-.features p {
+.features p,
+.menu-lainnya p,
+.cart-header p {
     font-family: 'Inter';
     font-size: 22px;
     font-weight: 400;
@@ -272,5 +276,33 @@ a {
     line-height: 34px;
     color: #FF930D;
     margin-top: 18px;
+
+}
+
+.title-co {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #121212;
+
+}
+
+.sub-title-co {
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #FF930D;
+    margin-top: -18px;
+}
+
+.sub-sub-co {
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #6F6F6F;
+    margin-top: -32px;
 
 }
