@@ -27,6 +27,17 @@ body {
 
 }
 
+.nav-text {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #121212;
+    margin-left: 0%;
+
+
+}
+
 .breadcrumb {
     font-family: 'Inter';
     font-size: 18px;
@@ -272,7 +283,8 @@ a {
 
 }
 
-.judul-tabs {
+.judul-tabs,
+.judul-alamat {
 
     font-family: 'Inter';
     font-size: 24px;
@@ -390,4 +402,67 @@ a {
 .input-qty {
 
     max-width: 40px;
+}
+
+.judul-co,
+.checkout-detail h5 {
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #121212;
+
+}
+
+.data-pengiriman {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+
+
+}
+
+.data-pengiriman option {
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    color: #BDBDBD;
+
+
+}
+
+.checkout-detail {
+    border-radius: 10px;
+    background-color: #FAFAFA;
+
+}
+
+.checkout-detail h6 {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #121212;
+
+}
+
+.checkout-detail h5 {
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #121212;
+
+}
+
+.btn-block {
+    width: 224px;
+    height: 60px;
+    border-radius: 10px;
+
+}
+
+.border-co {
+    border-width: 2px;
 }
