@@ -389,7 +389,7 @@ a {
     font-family: 'Inter';
     font-size: 18px;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 24px;
     color: #121212;
 
 }
@@ -471,8 +471,6 @@ a {
 }
 
 .btn-block {
-    width: 224px;
-    height: 60px;
     border-radius: 10px;
 
 }
