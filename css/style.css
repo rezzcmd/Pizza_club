@@ -40,6 +40,11 @@ body {
 
 .btn-menu {
     padding: 8px 12px !important;
+    font-weight: 400 !important;
+}
+
+.btn {
+    font-weight: 500;
 }
 
 .breadcrumb {
@@ -227,14 +232,24 @@ a {
     background-color: #FF930D;
     border-color: #FF930D;
     padding: 18px 24px;
+    font-family: 'inter';
+    font-size: 18px;
+    line-height: 21.78px;
+
 }
 
 .btn-outline-warning {
 
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
     padding: 18px 24px;
     border-radius: 10px;
     border-width: 2px;
     color: #FF930D;
+
+
 
 
 }
@@ -467,6 +482,16 @@ a {
     font-weight: 500;
     line-height: 40px;
     color: #121212;
+
+}
+
+.checkout-detail small {
+
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 40px;
+
 
 }
 
