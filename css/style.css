@@ -61,6 +61,14 @@ body {
 
 /* Carousel */
 
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .img-carousel {
+      display: none;
+    }
+  }
+
 .carousel {
     /* width: 1409px; */
     height: 460px;
