@@ -105,6 +105,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 21.78px;
+    color: #6F6F6F;
 }
 
 .menu-terlaris {
@@ -169,11 +170,16 @@ body {
 .figure figcaption p {
     font-family: 'inter';
     font-weight: 400;
+    font-size: 14px !important;
     line-height: 16.94px;
     color: #4F4F4F;
 }
 
 .figure figcaption span {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
     color: #FF930D;
 }
 
@@ -204,8 +210,17 @@ body {
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
+    color: #121212;
 
 
+}
+
+.title-subfoot {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #6F6F6F;
 }
 
 .title-sub-foot,
@@ -268,10 +283,10 @@ a {
 }
 
 .card-layanan p {
-    font-family: Inter;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 29px;
     color: #121212;
 }
