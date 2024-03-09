@@ -67,20 +67,38 @@
     <div class="modal fade login" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-body" style="background-color: aliceblue;">
-                <form action="">
-                    <label for="username">
-                        Username: <br>
-                        <input type="text" required>
-                        <br>
-                    </label>
-                    <label for="password">
-                        password: <br>
-                        <input type="password" required>
-                    </label>
-                    <br>
-                    <input type="submit">
-                </form>
+            <div class="modal-content">
+                <nav class="navbar navbar-expand-lg navbar-light border-bottom navbar-set"
+                    style="box-shadow: rgba(211, 211, 211, 0.25);">
+                    <div class="container">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav text-uppercase mx-auto">
+                                <li class="nav-item active">
+                                    <a class="navbar-brand" href="index.html">
+                                        <img src="img/logo1.png" alt="Pizza_club">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="modal-body text-center">
+                    <img src="img/modal/2.svg" alt="login">
+                    <form action="">
+                        <div class="container text-left">
+                            <label for="username">Email</label> <br>
+                            <input type="text" placeholder="Masukan email anda" name="username" required> <br>
+                            <label for="password">Password</label> <br>
+                            <input type="password" placeholder="Masukan Password anda" name="password" required> <br>
+                            <button type="submit">Login</button>
+                        </div>
+                    </form>
+
+                </div>
             </div>
         </div>
     </div>
@@ -99,7 +117,7 @@
             <div class="container pt-5">
                 <div class="carousel-item active">
                     <div class="row pt-5 justify-content-center">
-                        <div class="col-9 col-sm-4 col-md-6 col-lg-5">
+                        <div class="col-12 col-sm-9 col-md-6 col-lg-5">
                             <h1 class="mb-4">Pizza Spesial untuk Orang Spesial</h1>
                             <p class="mb-4">Dapatkan Pizza Spesial dengan tambahan topping ekskulif untuk Orang Spesial
                             </p>
@@ -107,7 +125,7 @@
                                 style="border-radius: 10px;">Dapatkan
                                 Sekarang</a>
                         </div>
-                        <div class="col-3 col-sm-6 col-md-4 col-lg-4 d-none d-sm-block offset-1">
+                        <div class="col col-sm-3 col-md-4 col-lg-4 d-none d-sm-block offset-1">
                             <img src="img/Product/carousel 1.png" class="img-fluid">
                         </div>
                     </div>
@@ -334,17 +352,17 @@
     <footer class="border-top p-5">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                     <h4 class="title-footer">Pizza Club</h4>
                     <p class="title-subfoot">Pizza terbaik dibuat dengan hati🖤</p>
                 </div>
-                <div class="col">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 ">
                     <a href="">Info Nutrisi</a> <br>
                     <a href="">Tentang Kami</a> <br>
                     <a href="">Promo Spesial</a> <br>
                     <a href="">Cara Pemesanan</a>
                 </div>
-                <div class="col">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                     <a href="">Hubungi Kami</a> <br>
                     <a href="">Kebijakan & Privasi</a> <br>
                     <a href="">Informasi Karir</a> <br>
