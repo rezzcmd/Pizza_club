@@ -66,20 +66,41 @@
     <div class="modal fade login" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-body" style="background-color: aliceblue;">
-                <form action="">
-                    <label for="username">
-                        Username: <br>
-                        <input type="text" required>
-                        <br>
-                    </label>
-                    <label for="password">
-                        password: <br>
-                        <input type="password" required>
-                    </label>
-                    <br>
-                    <input type="submit">
-                </form>
+            <div class="modal-content">
+                <nav class="navbar navbar-expand-lg navbar-light border-bottom navbar-set"
+                    style="box-shadow: rgba(211, 211, 211, 0.25);">
+                    <div class="container">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav text-uppercase mx-auto">
+                                <li class="nav-item active">
+                                    <a class="navbar-brand" href="index.html">
+                                        <img src="img/logo1.png" alt="Pizza_club">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="modal-body text-center">
+                    <img src="img/modal/2.svg" alt="login">
+                    <form action="">
+                        <h3 class="pt-5 pb-3" style="line-height: 40px !important;">Masuk ke Akun Anda</h3>
+                        <div class="container modal-lable">
+                            <label for="username">Email</label> <br>
+                            <input class="input-login" type="text" placeholder="Masukan email anda" name="username"
+                                required> <br><br>
+                            <label for="password">Password</label> <br>
+                            <input class="input-login" type="password" placeholder="Masukan Password anda"
+                                name="password" required> <br><br><br><br>
+                            <button class="btn btn-warning button-login">Login</button>
+                        </div>
+                    </form>
+
+                </div>
             </div>
         </div>
     </div>
@@ -110,12 +131,12 @@
     <section class="single-product">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-lg-5" style="width: 296px; height: 296px;">
-                    <figure class="figure">
+                <div class="img-product col-lg-5 col-md-5" style="width: 296px; height: 296px;">
+                    <figure class="figure figure-single">
                         <img src="img/single/1.png" class="figure-img img-fluid rounded">
                     </figure>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5 ">
                     <h3 class="title-product">Cheese Meatball Classic</h3>
                     <p class="subtitle-product">Rp134.000</p>
                     <div class="row justify-content-center pb-1 pt-3">
@@ -168,7 +189,7 @@
     <section class="product-description p-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9">
+                <div class="col">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-tabs nav-item-tab">
                             <a class="nav-link-review nav-link active judul-tabs" id="description-tab" data-toggle="tab"
@@ -246,8 +267,8 @@
                     <p>Menu lain untuk temani santapan kamu</p>
                 </div>
             </div>
-            <div class="row p-5">
-                <div class="col col-sm-6 col-md-4 col-lg-3">
+            <div class="row pb-5 px-5">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                     <div class="figure menu-lain">
                         <figure class="figure-img text-center rounded-circle">
                             <img src="/img/Menu lainnya/1.png" class="figure-img img-fluid" style="width: 180px;">
@@ -260,7 +281,7 @@
                         </figure>
                     </div>
                 </div>
-                <div class="col col-sm-6 col-md-4 col-lg-3">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                     <div class="figure menu-lain">
                         <figure class="figure-img text-center">
                             <img src="/img/Menu lainnya/2.png" class="figure-img img-fluid" style="width: 180px;">
@@ -273,7 +294,7 @@
                         </figure>
                     </div>
                 </div>
-                <div class="col col-sm-6 col-md-4 col-lg-3">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                     <div class="figure menu-lain">
                         <figure class="figure-img text-center">
                             <img src="/img/Menu lainnya/3.png" class="figure-img img-fluid" style="width: 180px;">
@@ -286,7 +307,7 @@
                         </figure>
                     </div>
                 </div>
-                <div class="col col-sm-6 col-md-4 col-lg-3">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                     <div class="figure menu-lain">
                         <figure class="figure-img text-center">
                             <img src="/img/Menu lainnya/4.png" class="figure-img img-fluid" style="width: 180px;">
