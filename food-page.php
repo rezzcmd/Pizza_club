@@ -24,41 +24,10 @@
 </head>
 
 <body>
-    <!-- Ini Navbar -->
-
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top  navbar-set">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/logo1.png" alt="Pizza_club">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav text-uppercase mx-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Promo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Lokasi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                </ul>
-                <a href="cart.html" class="nav-link" style="color: black;"><i class="fa-solid fa-cart-shopping"></i>
-                </a>
-                <a href="" class="btn btn-warning btn-menu text-white" data-toggle="modal" data-target="#login"
-                    style="border-radius: 10px;">Masuk</a>
-            </div>
-        </div>
-    </nav>
-
+ <!-- Navbar -->
+ <?php include "Layout/navbar.html" ?>
     <!-- Akhir Navbar -->
+
 
     <!-- modal login -->
 
@@ -77,7 +46,7 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav text-uppercase mx-auto">
                                 <li class="nav-item active">
-                                    <a class="navbar-brand" href="index.html">
+                                    <a class="navbar-brand" href="index.php">
                                         <img src="img/logo1.png" alt="Pizza_club">
                                     </a>
                                 </li>
@@ -167,7 +136,7 @@
                     <div class="row">
                         <div class="col pt-3">
                             <div class="btn-product">
-                                <a href="cart.html" class="btn btn-warning text-white"
+                                <a href="cart.php" class="btn btn-warning text-white"
                                     style="border-radius: 10px;">Masukan
                                     Keranjang</a>
                                 <a href="" class="btn btn-outline-warning"><img src="img/heart-regular 1.png"
@@ -332,38 +301,10 @@
 
     <!-- Footer -->
 
-    <footer class="border-top p-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                    <h4 class="title-footer">Pizza Club</h4>
-                    <p class="title-subfoot">Pizza terbaik dibuat dengan hati🖤</p>
-                </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3 ">
-                    <a href="">Info Nutrisi</a> <br>
-                    <a href="">Tentang Kami</a> <br>
-                    <a href="">Promo Spesial</a> <br>
-                    <a href="">Cara Pemesanan</a>
-                </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3">
-                    <a href="">Hubungi Kami</a> <br>
-                    <a href="">Kebijakan & Privasi</a> <br>
-                    <a href="">Informasi Karir</a> <br>
-                    <a href="">Sertifikasi & Jaminan</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <div class="container-fluid">
-        <div class="row  bg-light pt-3">
-            <div class="col text-center">
-                <p>2020 Copyright Pizza Club | All rights reserved</p>
-            </div>
-        </div>
-    </div>
+   <?php include "Layout/footer.html" ?>
 
     <!-- Akhir Footer -->
+
 
 
 
